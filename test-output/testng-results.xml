@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-16T03:41:49 EDT" name="Suite1" finished-at="2023-05-16T03:41:53 EDT" duration-ms="3776">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:smarttech.ny.myrunner.TestRunner@27462a88]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-05-16T03:41:49 EDT" name="functionaltest" finished-at="2023-05-16T03:41:53 EDT" duration-ms="3776">
+      <class name="smarttech.ny.myrunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:smarttech.ny.myrunner.TestRunner@27462a88]" started-at="2023-05-16T03:41:49 EDT" name="setUpClass" finished-at="2023-05-16T03:41:50 EDT" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:smarttech.ny.myrunner.TestRunner@27462a88]" started-at="2023-05-16T03:41:50 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-16T03:41:53 EDT" duration-ms="3346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Able To Login, Purchase And Download Invoice."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Valid Users Able To Download Invoice after purchase the order.]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:smarttech.ny.myrunner.TestRunner@27462a88]" started-at="2023-05-16T03:41:53 EDT" name="tearDownClass" finished-at="2023-05-16T03:41:53 EDT" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- smarttech.ny.myrunner.TestRunner -->
+    </test> <!-- functionaltest -->
+  </suite> <!-- Suite1 -->
+</testng-results>
